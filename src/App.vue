@@ -43,8 +43,7 @@ export default {
 </script>
 
 <template>
-  <LoginPage v-if="isActiveLoginPage" 
-    @addUser="addUser" 
+  <LoginPage v-if="isActiveLoginPage" @addUser="addUser" 
   />
 
   <template v-else>
